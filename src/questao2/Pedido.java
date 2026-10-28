@@ -20,8 +20,8 @@ public class Pedido {
     public long getId(){
         return id;
     }
-    public LocalDate getPreco() {return dataPedido;}
+    public LocalDate getData() {return dataPedido;}
     public List<Produto> getProdutos() {return  produtos;}
-    public Cliente cliente() {return cliente;}
+    public Cliente getCliente() {return cliente;}
 
 }
